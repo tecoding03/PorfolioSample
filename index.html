@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gustavo Portfolio</title>
+  <link rel="stylesheet" href="./resources/css/index.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="container">
+      <img src="./resources/images/logo.png">
+
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button id="dark-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content container">
+      <h1>Hi, I'm Gustavo Tec</h1>
+      <h2>Full-Stack Engineer</h2>
+      <p>I build clean, modern, responsive websites using HTML, CSS, and JavaScript.</p>
+      <a href="#projects" class="btn-primary">View My Projects</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about-container container">
+      <div class="about-img">
+        <img src="./resources/images/Picture .jpg" alt="Gustavo portrait">
+      </div>
+
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          I'm Gustavo, a front‑end developer who enjoys building clean, modern, and responsive websites.
+        </p>
+        <p>
+          My goal is to create digital experiences that are simple, beautiful, and user‑friendly.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <h3>Project One</h3>
+          <p>A short description of your project goes here.</p>
+          <a href="#" class="btn-primary">View Project</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Project Two</h3>
+          <p>A short description of your project goes here.</p>
+          <a href="#" class="btn-primary">View Project</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Project Three</h3>
+          <p>A short description of your project goes here.</p>
+          <a href="#" class="btn-primary">View Project</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section id="skills">
+  <div class="container">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <div class="skill-icon">💻</div>
+        <h3>HTML</h3>
+        <p>Semantic & accessible markup</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">🎨</div>
+        <h3>CSS</h3>
+        <p>Flexbox, Grid, Responsive UI</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">⚡</div>
+        <h3>JavaScript</h3>
+        <p>DOM, events, interactivity</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">🧩</div>
+        <h3>React</h3>
+        <p>Components & hooks</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section id="contact">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+
+    <form class="contact-form">
+
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+
+      <button type="submit" class="btn-primary">Send Message</button>
+
+    </form>
+  </div>
+</section>
+<footer>
+  <div class="container footer-content">
+
+    <p class="footer-name">© <span id="year"></span> Gustavo. All rights reserved.</p>
+
+    <div class="footer-socials">
+      <a href="#" target="_blank">🌐 GitHub</a>
+      <a href="#" target="_blank">💼 LinkedIn</a>
+    </div>
+
+  </div>
+</footer>
+  <script src="/resources/javascript/script.js"></script>
+</body>
+</html>
